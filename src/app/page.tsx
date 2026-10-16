@@ -4,7 +4,7 @@ import { FormEvent, useEffect, useState } from "react";
 import styles from "./page.module.css";
 
 const SPLASH_MS = 2000;
-const REDIRECT_URL = process.env.NEXT_PUBLIC_REDIRECT_URL ?? "https://example.com";
+const REDIRECT_URL = process.env.NEXT_PUBLIC_REDIRECT_URL ?? "https://g-acesorios.vercel.app/";
 
 export default function Home() {
   const [showSplash, setShowSplash] = useState(true);
